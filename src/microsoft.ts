@@ -20,7 +20,7 @@ const mappedEvents: MappedEvent[] = microsoftEvents.map((event) => {
   };
 });
 
-interface MappedEvent {
+export interface MappedEvent {
   id: string;
   event_id: string;
   name: string;
